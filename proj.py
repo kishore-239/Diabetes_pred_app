@@ -14,8 +14,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 
-df = pd.read_csv(r'C:\Users\kisho\OneDrive\Desktop\Diabetes_prediction\diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 # C:\Users\kisho\OneDrive\Desktop\Diabetes_prediction
+# r'C:\Users\kisho\OneDrive\Desktop\Diabetes_prediction\diabetes.csv'
 
 # HEADINGS
 st.title('Diabetes Care Review')
